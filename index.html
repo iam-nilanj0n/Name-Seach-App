@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Name Search</title>
+    <link rel="icon" type="image/x-icon" href="./asset/icon.png">
+</head>
+
+<body>
+    <section id="searchSection">
+        <label for="countryName">Country Name:</label>
+
+        <select name="countryName" id="countryName">
+            <option value="">select</option>
+        </select>
+
+        <label for="gender">Gender</label>
+
+        <select name="gender" id="gender">
+            <option value="">select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <button class="searchButton">Search</button>
+    </section>
+
+    <section id="displaySection">
+        <div class="nameDisplay">
+            <h2 class="nameDisplayHeading"></h2>
+            <div class="nameDisplayContent"></div>
+        </div>
+        <div class="surnameDisplay">
+            <h2 class="surnameDisplayHeading"></h2>
+            <div class="surnameDisplayContent"></div>
+        </div>
+    </section>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
